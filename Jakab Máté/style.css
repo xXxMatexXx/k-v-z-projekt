@@ -9,6 +9,8 @@ font-family: 'Iceberg', cursive;
 nav{
     background-color: #F15B21;
     padding: 15px;
+    position: fixed;
+    z-index: 5;
 }
 
 nav{
@@ -22,11 +24,18 @@ nav a:hoover{
 }
 
 nav a:first-child{
-    font-size: 1.5;
+    font-size: 1.5em;
 }
 
 nav a :first-child img{
     width: 40px;
+}
+
+.banner{
+    background-image: url(../képek/banner.png);
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
 }
 
 #napiajanlat{
@@ -36,12 +45,20 @@ nav a :first-child img{
     right: 20px;
 }
 
-.banner{
-    background-image: url(../Jakab\ Máté/képek/banner.png);
-    background-position: center center;
-    background-size: cover;
-    height: 400px;
+.footer{
+    background-color: #F15B21;
+    color: #FFFFFF;
 }
+
+footer li{
+    list-style-type: none;
+}
+
+footer li>image{
+    width: 15;
+    margin-right: 10 px;
+}
+
 .kave{
     color: #F15B21;
     background-color: #FFFFFF;
