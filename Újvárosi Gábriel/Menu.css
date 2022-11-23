@@ -4,10 +4,14 @@
 
     width: auto;
     margin: left;
+  
 }
 .navbar a{
  color: white;
  float: left;
+}
+.navbar img{
+    width: 30px;
 }
 .navbar a:hover{
     background-color: darkgreen;
