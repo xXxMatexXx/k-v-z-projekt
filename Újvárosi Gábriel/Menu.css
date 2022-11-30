@@ -9,6 +9,7 @@
 .navbar a{
  color: white;
  float: left;
+ text-decoration: none;
 }
 .navbar img{
     width: 30px;
@@ -21,7 +22,7 @@
     color: white;
 }
 body{
-    background-image: url(./képek/kácé_babokon.png);
+    background-image: url(./képek/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
