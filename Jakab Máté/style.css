@@ -9,6 +9,8 @@ font-family: 'Iceberg', cursive;
 nav{
     background-color: #F15B21;
     padding: 15px;
+    position: fixed;
+    z-index: 5;
 }
 
 nav{
@@ -22,7 +24,7 @@ nav a:hover{
 }
 
 nav a:first-child{
-    font-size: 1.5;
+    font-size: 1.5em;
 }
 
 nav a :first-child img{
@@ -30,11 +32,37 @@ nav a :first-child img{
 }
 
 .banner{
+<<<<<<< HEAD
     background-image: url(banner.png);
+=======
+    background-image: url(../képek/banner.png);
+>>>>>>> 53318ad60893b55a20430fe568e0a382b167b193
     background-position: center center;
     background-size: cover;
     height: 400px;
 }
+
+#napiajanlat{
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+.footer{
+    background-color: #F15B21;
+    color: #FFFFFF;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer li>image{
+    width: 15;
+    margin-right: 10 px;
+}
+
 .kave{
     color: #F15B21;
     background-color: #FFFFFF;
