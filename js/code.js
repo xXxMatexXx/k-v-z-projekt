@@ -1,5 +1,5 @@
 function feliratkozas(){
-    let email = document.getElementById(email);
+    let email = document.getElementById('email');
     if(email.value != ""){
         email.value = "";
         alert("Sikeresen feliratkozott! Köszönjük szépen!")
