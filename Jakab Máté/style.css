@@ -32,12 +32,8 @@ nav a :first-child img{
 }
 
 .banner{
-<<<<<<< HEAD
     background-image: url(banner.png);
-=======
-    background-image: url(../képek/banner.png);
->>>>>>> 53318ad60893b55a20430fe568e0a382b167b193
-    background-position: center center;
+    background-position:  center;
     background-size: cover;
     height: 400px;
 }
