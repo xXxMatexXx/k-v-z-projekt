@@ -1,3 +1,16 @@
+body{
+    font-family:'Times New Roman'
+}
 img.main {
-    
+    display: block;
+    margin: 0px auto
+}
+img.icons{
+    width: 25px;
+}
+h1{
+    text-align: center
+}
+li{
+    display: inline
 }
