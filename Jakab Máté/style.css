@@ -1,14 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
-body {
+body:not(#home), .modal-body{
     background-color: #FFFFFF
 }
 
+/*Főoldal*/
+#home{
+    height: 100vh;
+    background-image: url(./képek/Menű.png);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro{
+    color: white;  
+    height: 100vh;     
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);    
+}
+
+/*Menü*/
 nav{
     background-color: #F15B21;
-    padding: 15px;
-    position: fixed;
-    z-index: 5;
 }
 
 nav a{
@@ -19,10 +35,6 @@ nav a{
 nav a:hover{
     color: #F15B21
     text-decortaion none;
-}
-
-nav a:first-child{
-    font-size: 1.5em;
 }
 
 nav a:first-child img{
@@ -42,26 +54,25 @@ h1{
     text-align: center;
     }
 
-.kave{
+.card{
     color: #F15B21;
     background-color: #FFFFFF;
     border: 1px solid #F15B21;
-    border-radius: 4px;
-    margin-bottom: 1rem;
 
 }
 
-.kave:hover{
+.card:hover{
     box-shadow: 0px 0px 5px #F15B21;
 }
 
-.kave h2{
-    font-size: 1rem;
+h5{
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-variant:small-caps;
+    font-variant: small-caps;
+    font-family: 'Iceberg';
+}
 
+a:hover{
+    text-decoration: none;
 }
 
 #napiajanlat{
@@ -83,4 +94,7 @@ footer li{
 footer li>img{
     width: 15px;
     margin-right: 10px;
+}
+.modal-content{
+    background-color: #F15B21;
 }
