@@ -12,7 +12,7 @@
 
     <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <a class="navbar-brand" href="./Menü.html">
+            <a class="navbar-brand" href="../Újvárosi Gábriel/Index.html">
                 Lucky
                 <img src="./ikonok/clover-svgrepo-com.svg" alt="">
             </a>
@@ -22,27 +22,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarMenu">
                 <div class="navbar-nav">
-                    <a class="nav-link" href="#">Főoldal</a>
-                    <a class="nav-link active" href="#">Kávéfajták</a>
-                    <a class="nav-link" href="#">Sütemények</a>
+                    <a class="nav-link" href="../Újvárosi Gábriel/Index.html">Főoldal</a>
+                    <a class="nav-link active" href="../Jakab Máté/Kávéfajták.html">Kávéfajták</a>
+                    <a class="nav-link" href="../Jakab Máté/Sütemény.html">Sütemények</a>
                     <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="../Fekete Zoli/uditok.html">Italok</a>
                 </div>
             </div>
         </nav>
 
-    <nav class="container-fluid">
-        <div class="row">
-            <div class="col-12">
-                <a href="./index.html">
-                Lucky
-                <img src="./ikonok/clover-svgrepo-com.svg" alt="">
-                </a>
-                <a href="./Menü.html">Főoldal</a>
-                <a href="./Kávéfajták.html">Kávéfajták</a>
-                <a href="./Sütemény.html">Sütemények</a>
-                <a href="./blog.htl">Blog</a>
-            </div>
-        </div>
+    
     </nav>
     <div class="banner"></div>
 
@@ -148,10 +137,10 @@
                     <p>Iratkozzon fel a kávé magazinunkra!</p>
                     <form>
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="E-mail
+                            <input type="text" id="email" class="form-control" placeholder="E-mail
                             " aria-label="E-mail" aria-describedby="button-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-dark" type="button" id="button-addon2">Feliratkozom</button>
+                                <button onclick="feliratkozas()" class="btn btn-dark" type="button" id="button-addon2">Feliratkozom</button>
                             </div>
                         </div>
                 </form>

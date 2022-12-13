@@ -1,28 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
 
-body:not(#home), .modal-body{
+body, .modal-body {
     background-color: #FFFFFF
 }
 
-/*Főoldal*/
-#home{
-    height: 100vh;
-    background-image: url(./képek/Menű.png);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-}
-
-#home .intro{
-    color: white;  
-    height: 100vh;     
-}
-
-#home .intro .col-md-8{
-    background-color: rgba(0,0,0,0.4);    
-}
-
-/*Menü*/
 nav{
     background-color: #F15B21;
 }
