@@ -14,3 +14,18 @@ h1{
 li{
     display: inline
 }
+div.footer{
+    height: auto;
+}
+div.row{
+    display: inline
+}
+footer.container{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: auto;
+}
+button{
+    padding: 10px 20px;
+}
